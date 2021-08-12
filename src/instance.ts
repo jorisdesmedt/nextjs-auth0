@@ -57,6 +57,7 @@ export interface SignInWithAuth0 {
    * Create the main handlers for your api routes
    */
   handleAuth: HandleAuth;
+  sessionCache: any;
 }
 
 /**
